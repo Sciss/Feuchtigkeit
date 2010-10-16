@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<konturSession>
+    <audioFiles>
+  <coll>
+  <audioFile id="0">
+  <path>/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/2010102sciss_attic_02_2128-1.aif</path>
+  <numFrames>95602075</numFrames>
+  <numChannels>1</numChannels>
+  <sampleRate>44100.0</sampleRate>
+</audioFile>
+</coll>
+</audioFiles>
+    <diffusions>
+  <coll>
+  <diffusion class="matrix" id="1">
+          <name>Mono-to-Stereo</name>
+          <numInputChannels>1</numInputChannels>
+          <numOutputChannels>2</numOutputChannels>
+          <matrix><row>1.0 1.0</row></matrix>
+       </diffusion>
+</coll>
+</diffusions>
+    <timelines>
+       <coll>
+  <timeline id="2">
+  <name>Timeline</name>
+  <span stop="79380000" start="0"></span>
+  <rate>44100.0</rate>
+  <tracks id="3">
+      <coll>
+  <audioTrack id="4">
+      <name>A1</name>
+      <diffusion idref="1"></diffusion>
+      <trail>
+  <stake>
+      <name>2010102sciss_attic_02_2128-1.aif</name>
+      <span stop="2399725" start="2315906"></span>
+      <audioFile idref="0"></audioFile>
+      <offset>9345001</offset>
+      <gain>1.0</gain>
+      
+      
+      
+   </stake><stake>
+      <name>2010102sciss_attic_02_2128-1.aif</name>
+      <span stop="197764" start="122925"></span>
+      <audioFile idref="0"></audioFile>
+      <offset>5622241</offset>
+      <gain>3.9810715</gain>
+      
+      
+      
+   </stake><stake>
+      <name>2010102sciss_attic_02_2128-1.aif</name>
+      <span stop="496889" start="206514"></span>
+      <audioFile idref="0"></audioFile>
+      <offset>5721028</offset>
+      <gain>3.9810715</gain>
+      
+      
+      
+   </stake><stake>
+      <name>2010102sciss_attic_02_2128-1.aif</name>
+      <span stop="111038" start="24225"></span>
+      <audioFile idref="0"></audioFile>
+      <offset>5502499</offset>
+      <gain>3.9810715</gain>
+      
+      
+      
+   </stake><stake>
+      <name>2010102sciss_attic_02_2128-1.aif</name>
+      <span stop="1118206" start="501534"></span>
+      <audioFile idref="0"></audioFile>
+      <offset>6084103</offset>
+      <gain>3.9810715</gain>
+      
+      
+      
+   </stake><stake>
+      <name>2010102sciss_attic_02_2128-1.aif</name>
+      <span stop="2309933" start="2247068"></span>
+      <audioFile idref="0"></audioFile>
+      <offset>9462319</offset>
+      <gain>1.0</gain>
+      
+      
+      
+   </stake><stake>
+      <name>2010102sciss_attic_02_2128-1.aif</name>
+      <span stop="2696710" start="2409329"></span>
+      <audioFile idref="0"></audioFile>
+      <offset>9594036</offset>
+      <gain>1.0</gain>
+      
+      
+      
+   </stake><stake>
+      <name>2010102sciss_attic_02_2128-1.aif</name>
+      <span stop="1824219" start="1755368"></span>
+      <audioFile idref="0"></audioFile>
+      <offset>7601828</offset>
+      <gain>3.9810715</gain>
+      
+      
+      
+   </stake><stake>
+      <name>2010102sciss_attic_02_2128-1.aif</name>
+      <span stop="1752715" start="1121075"></span>
+      <audioFile idref="0"></audioFile>
+      <offset>6742678</offset>
+      <gain>3.9810715</gain>
+      
+      
+      
+   </stake><stake>
+      <name>2010102sciss_attic_02_2128-1.aif</name>
+      <span stop="2241163" start="1834040"></span>
+      <audioFile idref="0"></audioFile>
+      <offset>7871247</offset>
+      <gain>3.9810715</gain>
+      
+      
+      
+   </stake><stake>
+      <name>2010102sciss_attic_02_2128-1.aif</name>
+      <span stop="6010293" start="2699431"></span>
+      <audioFile idref="0"></audioFile>
+      <offset>10603864</offset>
+      <gain>1.0</gain>
+      
+      
+      
+   </stake><stake>
+      <name>2010102sciss_attic_02_2128-1.aif</name>
+      <span stop="7769343" start="7464001"></span>
+      <audioFile idref="0"></audioFile>
+      <offset>15322883</offset>
+      <gain>1.0</gain>
+      
+      
+      
+   </stake><stake>
+      <name>2010102sciss_attic_02_2128-1.aif</name>
+      <span stop="7465616" start="7050973"></span>
+      <audioFile idref="0"></audioFile>
+      <offset>14930617</offset>
+      <gain>0.63095737</gain>
+      
+      
+      
+   </stake><stake>
+      <name>2010102sciss_attic_02_2128-1.aif</name>
+      <span stop="6490435" start="6008570"></span>
+      <audioFile idref="0"></audioFile>
+      <offset>13893387</offset>
+      <gain>0.70794576</gain>
+      
+      
+      
+   </stake><stake>
+      <name>2010102sciss_attic_02_2128-1.aif</name>
+      <span stop="6882687" start="6490435"></span>
+      <audioFile idref="0"></audioFile>
+      <offset>14375252</offset>
+      <gain>1.0</gain>
+      
+      
+      
+   </stake><stake>
+      <name>2010102sciss_attic_02_2128-1.aif</name>
+      <span stop="7050973" start="6878879"></span>
+      <audioFile idref="0"></audioFile>
+      <offset>14758523</offset>
+      <gain>0.12589253</gain>
+      
+      
+      
+   </stake><stake>
+      <name>2010102sciss_attic_02_2128-1.aif</name>
+      <span stop="13786436" start="7768855"></span>
+      <audioFile idref="0"></audioFile>
+      <offset>15622238</offset>
+      <gain>1.0</gain>
+      
+      
+      
+   </stake>
+</trail>
+      </audioTrack><audioTrack id="5">
+      <name>A2</name>
+      <diffusion idref="1"></diffusion>
+      <trail>
+  <stake>
+      <name>2010102sciss_attic_02_2128-1.aif</name>
+      <span stop="16959250" start="14701821"></span>
+      <audioFile idref="0"></audioFile>
+      <offset>22608308</offset>
+      <gain>1.0</gain>
+      
+      
+      
+   </stake><stake>
+      <name>2010102sciss_attic_02_2128-1.aif</name>
+      <span stop="14701553" start="13905268"></span>
+      <audioFile idref="0"></audioFile>
+      <offset>21638397</offset>
+      <gain>1.0</gain>
+      
+      
+      
+   </stake>
+</trail>
+      </audioTrack>
+</coll>
+      </tracks>
+</timeline>
+</coll>
+    </timelines>
+</konturSession>

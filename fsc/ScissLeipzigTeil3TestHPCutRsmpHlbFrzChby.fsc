@@ -1,0 +1,28 @@
+#Created by FScape; do not edit manually!
+#Sat Oct 16 15:55:44 CEST 2010
+MidFreq=2000.0,3
+BandsPerOct=1.0,0
+LoFreq=400.0,3
+OutputReso=1
+MidTime=50.0,18
+RollOff=12.0,547
+OutputFile=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/ScissLeipzigTeil3TestHPCutRsmpHlbFrzChby.aif
+InputFile=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/ScissLeipzigTeil3TestHPCutRsmpHlbFrz.aif
+Gain=-0.2,785
+OutputType=0
+FilterLen=1
+Class=de.sciss.fscape.gui.ChebychevDlg
+Shape9=1.0,0.36363637,0.34545454,0.0,0.0,0.0,0.0,0.0,
+Shape8=1.0,0.3272727,0.45454547,0.0,0.0,0.0,0.0,0.0,
+DryMix=100.0,17
+Shape7=1.0,0.5090909,0.0,0.18181819,0.0,0.0,0.0,0.0,
+GainType=0
+Shape6=1.0,0.43636364,0.0,0.0,0.25454545,0.0,0.0,0.0,
+Shape5=1.0,0.56363636,0.0,0.4,0.0,0.0,0.0,0.0,
+HiFreq=9000.0,3
+DropEnv=false
+Shape4=1.0,0.3272727,0.56363636,0.0,0.0,0.0,0.0,0.0,
+Shape3=1.0,0.29090908,0.0,0.0,0.0,0.0,0.0,0.0,
+WetMix=25.0,17
+Shape2=1.0,0.4,0.0,0.0,0.0,0.0,0.0,0.0,
+Shape1=1.0,0.6363636,0.0,0.0,0.0,0.0,0.0,0.0,

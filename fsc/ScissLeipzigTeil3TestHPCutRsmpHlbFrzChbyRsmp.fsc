@@ -1,0 +1,21 @@
+#Created by FScape; do not edit manually!
+#Sat Oct 16 15:56:55 CEST 2010
+Quality=1
+OutputReso=1
+Length=100.11555790131096,50
+KeepHeader=true
+Rate=12.01,547
+RightChanModDepth=1.0,547
+OutputFile=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/ScissLeipzigTeil3TestHPCutRsmpHlbFrzChbyRsmp.aif
+RightChanModEnv=0.0,10.0,0.01,18;-100.0,100.0,0.01,16;0;0.0,0.0;10.0,100.0|0.0,100.0,0.01,18;-100.0,100.0,0.01,16;0;0.0,-100.0;100.0,100.0|0.0,10.0,0.01,18;-100.0,100.0,0.01,16;0;0.0,100.0;10.0,0.0|false|true|false
+InputFile=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/ScissLeipzigTeil3TestHPCutRsmpHlbFrzChby.aif
+RateMod=false
+Interpole=false
+UseLength=false
+Gain=-0.2,785
+OutputType=0
+RightChan=false
+RateModDepth=1.0,547
+Class=de.sciss.fscape.gui.ResampleDlg
+GainType=0
+RateModEnv=0.0,10.0,0.01,18;-100.0,100.0,0.01,16;0;0.0,0.0;10.0,100.0|0.0,100.0,0.01,18;-100.0,100.0,0.01,16;0;0.0,-100.0;100.0,100.0|0.0,10.0,0.01,18;-100.0,100.0,0.01,16;0;0.0,100.0;10.0,0.0|false|true|false

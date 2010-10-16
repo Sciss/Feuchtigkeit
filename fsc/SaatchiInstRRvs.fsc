@@ -1,0 +1,16 @@
+#Created by FScape; do not edit manually!
+#Sat Oct 16 20:38:54 CEST 2010
+FadeType=1
+Class=de.sciss.fscape.gui.ConcatDlg
+InputFile2=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/SaatchiInstRCut1.aif
+Gain=0.0,785
+InputFile1=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/SaatchiInstRCut109.aif
+Length=100.0,18
+Overlap=4.0,2
+FadeShape=0
+OutputFile=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/SaatchiInstRRvs.aif
+OutputReso=1
+Fade=100.0,18
+Offset=0.0,2
+GainType=1
+OutputType=0

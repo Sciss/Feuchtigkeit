@@ -1,0 +1,16 @@
+#Created by FScape; do not edit manually!
+#Tue Oct 12 16:38:33 CEST 2010
+FadeType=1
+Class=de.sciss.fscape.gui.ConcatDlg
+InputFile2=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/WaterContainerGesture171.aif
+Gain=-0.2,785
+InputFile1=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/WaterContainerGesture1.aif
+Length=100.0,18
+Overlap=2500.0,2
+FadeShape=0
+OutputFile=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/WaterContainerGestures.aif
+OutputReso=1
+Fade=0.0,18
+Offset=0.0,2
+GainType=0
+OutputType=0

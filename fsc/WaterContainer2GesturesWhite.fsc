@@ -1,0 +1,15 @@
+#Created by FScape; do not edit manually!
+#Wed Oct 13 17:48:30 CEST 2010
+Class=de.sciss.fscape.gui.BleachDlg
+Inverse=false
+FltInFile=
+Gain=-0.2,785
+AnaInFile=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/WaterContainer2Gestures.aif
+FilterClip=12.0,785
+OutputFile=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/WaterContainer2GesturesWhite.aif
+OutputReso=1
+GainType=0
+FeedbackGain=-36.0,785
+UseAnaAsFilter=true
+OutputType=0
+FilterLength=441.0,0

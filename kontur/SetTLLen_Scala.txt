@@ -1,0 +1,6 @@
+val tl = doc.timelines.find(_.name=="T3").get
+tl.span = tl.span.replace( stop = (30*60+31)*44100L )
+val tle = tl.editor.get
+val ce = tle.editBegin( "len" )
+tle.editSpan( ce, new de.sciss.io.Span( 0L, (30*60+31)*44100L ))
+tle.editEnd( ce )

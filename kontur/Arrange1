@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<konturSession>
+    <audioFiles>
+  <coll>
+  <audioFile id="0">
+  <path>/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/WaterContainer3GesturesHP.aif</path>
+  <numFrames>32380818</numFrames>
+  <numChannels>1</numChannels>
+  <sampleRate>44100.0</sampleRate>
+</audioFile><audioFile id="1">
+  <path>/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/WaterContainer6GesturesHP.aif</path>
+  <numFrames>23553078</numFrames>
+  <numChannels>1</numChannels>
+  <sampleRate>44100.0</sampleRate>
+</audioFile><audioFile id="2">
+  <path>/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/WaterContainer2GesturesHP.aif</path>
+  <numFrames>25142419</numFrames>
+  <numChannels>1</numChannels>
+  <sampleRate>44100.0</sampleRate>
+</audioFile><audioFile id="3">
+  <path>/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/ScissLeipzigTeil3TestHPCutRsmpHlbFrzChbyRsmpHP.aif</path>
+  <numFrames>26477493</numFrames>
+  <numChannels>1</numChannels>
+  <sampleRate>44100.0</sampleRate>
+</audioFile><audioFile id="4">
+  <path>/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/ScissLeipzigTeil3TestHPCutRsmpFrzRsmpHPExc.aif</path>
+  <numFrames>31754204</numFrames>
+  <numChannels>1</numChannels>
+  <sampleRate>44100.0</sampleRate>
+</audioFile><audioFile id="5">
+  <path>/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/ScissLeipzigTeil3TestHPCutRsmpHlb2FrzChbyRsmpHP.aif</path>
+  <numFrames>29141848</numFrames>
+  <numChannels>1</numChannels>
+  <sampleRate>44100.0</sampleRate>
+</audioFile><audioFile id="6">
+  <path>/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/SaatchiInstallation-L.aif</path>
+  <numFrames>26010857</numFrames>
+  <numChannels>1</numChannels>
+  <sampleRate>44100.0</sampleRate>
+</audioFile><audioFile id="7">
+  <path>/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/SaatchiInstRRvs.aif</path>
+  <numFrames>25021171</numFrames>
+  <numChannels>1</numChannels>
+  <sampleRate>44100.0</sampleRate>
+</audioFile><audioFile id="8">
+  <path>/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/2ASideBlossMMRsmpHP.aif</path>
+  <numFrames>16848996</numFrames>
+  <numChannels>1</numChannels>
+  <sampleRate>44100.0</sampleRate>
+</audioFile>
+</coll>
+</audioFiles>
+    <diffusions>
+  <coll>
+<diffusion class="matrix" id="10">
+          <name>1</name>
+          <numInputChannels>1</numInputChannels>
+          <numOutputChannels>5</numOutputChannels>
+          <matrix><row>0.0 0.0 1.0 0.0 0.0</row></matrix>
+       </diffusion><diffusion class="matrix" id="11">
+          <name>2</name>
+          <numInputChannels>1</numInputChannels>
+          <numOutputChannels>5</numOutputChannels>
+          <matrix><row>0.0 0.0 0.0 1.0 0.0</row></matrix>
+       </diffusion><diffusion class="matrix" id="12">
+          <name>3</name>
+          <numInputChannels>1</numInputChannels>
+          <numOutputChannels>5</numOutputChannels>
+          <matrix><row>0.0 0.0 0.0 0.0 1.0</row></matrix>
+       </diffusion>
+</coll>
+</diffusions>
+    <timelines>
+       <coll>
+  <timeline id="13">
+  <name>T1</name>
+  <span stop="88685100" start="0"></span>
+  <rate>44100.0</rate>
+  <tracks id="14">
+      <coll>
+  <audioTrack id="15">
+      <name>Audio</name>
+      <diffusion idref="10"></diffusion>
+      <trail>
+  <stake>
+      <name>SaatchiInstallation-L.aif</name>
+      <span stop="87278683" start="61267826"></span>
+      <audioFile idref="6"></audioFile>
+      <offset>0</offset>
+      <gain>1.5848932</gain>
+      
+      
+      
+   </stake><stake>
+      <name>ScissLeipzigTeil3TestHPCutRsmpHlbFrzChbyRsmpHP.aif</name>
+      <span stop="59981918" start="33504425"></span>
+      <audioFile idref="3"></audioFile>
+      <offset>0</offset>
+      <gain>1.0</gain>
+      
+      
+      
+   </stake><stake>
+      <name>WaterContainer3GesturesHP.aif</name>
+      <span stop="32380818" start="0"></span>
+      <audioFile idref="0"></audioFile>
+      <offset>0</offset>
+      <gain>1.0</gain>
+      
+      
+      
+   </stake>
+</trail>
+      </audioTrack>
+</coll>
+      </tracks>
+</timeline><timeline id="16">
+  <name>T2</name>
+  <span stop="73073700" start="0"></span>
+  <rate>44100.0</rate>
+  <tracks id="17">
+      <coll>
+  <audioTrack id="18">
+      <name>Audio</name>
+      <diffusion idref="11"></diffusion>
+      <trail>
+  <stake>
+      <name>2ASideBlossMMRsmpHP.aif</name>
+      <span stop="41747382" start="24898386"></span>
+      <audioFile idref="8"></audioFile>
+      <offset>0</offset>
+      <gain>0.2818383</gain>
+      
+      
+      
+   </stake><stake>
+      <name>ScissLeipzigTeil3TestHPCutRsmpFrzRsmpHPExc.aif</name>
+      <span stop="71812566" start="42987119"></span>
+      <audioFile idref="4"></audioFile>
+      <offset>0</offset>
+      <gain>1.0</gain>
+      
+      
+      
+   </stake><stake>
+      <name>WaterContainer6GesturesHP.aif</name>
+      <span stop="23553078" start="0"></span>
+      <audioFile idref="1"></audioFile>
+      <offset>0</offset>
+      <gain>1.0</gain>
+      
+      
+      
+   </stake>
+</trail>
+      </audioTrack>
+</coll>
+      </tracks>
+</timeline><timeline id="19">
+  <name>T3</name>
+  <span stop="80747100" start="0"></span>
+  <rate>44100.0</rate>
+  <tracks id="20">
+      <coll>
+  <audioTrack id="21">
+      <name>A1</name>
+      <diffusion idref="12"></diffusion>
+      <trail>
+  <stake>
+      <name>WaterContainer2GesturesHP.aif</name>
+      <span stop="79761553" start="54619134"></span>
+      <audioFile idref="2"></audioFile>
+      <offset>0</offset>
+      <gain>1.0</gain>
+      
+      
+      
+   </stake><stake>
+      <name>ScissLeipzigTeil3TestHPCutRsmpHlb2FrzChbyRsmpHP.aif</name>
+      <span stop="53087358" start="33493079"></span>
+      <audioFile idref="5"></audioFile>
+      <offset>9547569</offset>
+      <gain>1.0</gain>
+      <fadeIn><fade>
+  <numFrames>79421</numFrames>
+  
+  
+</fade></fadeIn>
+      
+      
+   </stake><stake>
+      <name>ScissLeipzigTeil3TestHPCutRsmpHlb2FrzChbyRsmpHP.aif</name>
+      <span stop="33515770" start="25289998"></span>
+      <audioFile idref="5"></audioFile>
+      <offset>0</offset>
+      <gain>1.0</gain>
+      
+      <fadeOut><fade>
+  <numFrames>51056</numFrames>
+  
+  
+</fade></fadeOut>
+      
+   </stake><stake>
+      <name>SaatchiInstRRvs.aif</name>
+      <span stop="9054023" start="0"></span>
+      <audioFile idref="7"></audioFile>
+      <offset>0</offset>
+      <gain>1.5848932</gain>
+      
+      <fadeOut><fade>
+  <numFrames>22692</numFrames>
+  
+  
+</fade></fadeOut>
+      
+   </stake><stake>
+      <name>SaatchiInstRRvs.aif</name>
+      <span stop="23931965" start="9025658"></span>
+      <audioFile idref="7"></audioFile>
+      <offset>10114864</offset>
+      <gain>1.5848932</gain>
+      <fadeIn><fade>
+  <numFrames>34038</numFrames>
+  
+  
+</fade></fadeIn>
+      
+      
+   </stake>
+</trail>
+      </audioTrack><audioTrack id="22">
+      <name>A2</name>
+      
+      <trail>
+  
+</trail>
+      </audioTrack>
+</coll>
+      </tracks>
+</timeline>
+</coll>
+    </timelines>
+</konturSession>

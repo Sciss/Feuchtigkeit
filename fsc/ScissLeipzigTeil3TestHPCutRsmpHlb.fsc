@@ -1,0 +1,16 @@
+#Created by FScape; do not edit manually!
+#Sat Oct 16 15:56:24 CEST 2010
+Class=de.sciss.fscape.gui.HilbertDlg
+Gain=-0.2,785
+FreqEnv=0.0,10.0,0.01,18;-100.0,100.0,0.01,16;0;0.0,0.0;10.0,100.0|0.0,100.0,0.01,18;-100.0,100.0,0.01,16;0;0.0,-100.0;100.0,100.0|0.0,10.0,0.01,18;-100.0,100.0,0.01,16;0;0.0,100.0;10.0,0.0|false|true|false
+ImOutFile=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/ScissLeipzigTeil3TestHPCutRsmpHlbi.aif
+Freq=1.0,3
+FreqMod=false
+OutputReso=1
+AntiAlias=true
+GainType=0
+ReOutFile=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/ScissLeipzigTeil3TestHPCutRsmpHlb.aif
+FreqModDepth=12.0,547
+Mode=2
+OutputType=0
+InputFile=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/ScissLeipzigTeil3TestHPCutRsmp.aif

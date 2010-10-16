@@ -1,0 +1,16 @@
+#Created by FScape; do not edit manually!
+#Mon Oct 11 18:25:40 CEST 2010
+Class=de.sciss.fscape.gui.ExciterDlg
+DryMix=100.0,17
+LoFreq=400.0,3
+RollOff=12.0,547
+Gain=-0.2,785
+BandsPerOct=1.0,0
+OutputFile=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/WaterContainer2StCutRsmpExc.aif
+HiFreq=9000.0,3
+OutputReso=1
+GainType=0
+WetMix=25.0,17
+FilterLen=1
+OutputType=0
+InputFile=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/WaterContainer2StCutRsmp.aif

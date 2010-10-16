@@ -1,0 +1,22 @@
+#Created by FScape; do not edit manually!
+#Sat Oct 16 16:05:49 CEST 2010
+MinChunkNum=90.0,0
+EntryPoint=450.0,2
+OutLength=330000.0,2
+OutputReso=1
+FltColor=1
+LenUpdate=true
+KriechEnv=0.0,10.0,0.01,18;0.0,100.0,0.01,16;0;0.0,0.0;10.0,100.0|0.0,100.0,0.01,18;0.0,100.0,0.01,16;0;0.0,100.0;100.0,0.0|0.0,10.0,0.01,18;0.0,100.0,0.01,16;0;0.0,100.0;10.0,0.0|false|true|false
+MaxChunkRep=4.0,0
+OutputFile=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/ScissLeipzigTeil3TestHPCutRsmpHlb2Frz.aif
+FltAmount=55.0,17
+InputFile=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/ScissLeipzigTeil3TestHPCutRsmpHlb2.aif
+MinChunkLen=30.0,2
+CrossFade=25.0,18
+MaxChunkNum=110.0,0
+Gain=-0.2,785
+OutputType=0
+MinChunkRep=1.0,0
+Class=de.sciss.fscape.gui.KriechstromDlg
+GainType=0
+MaxChunkLen=700.0,2

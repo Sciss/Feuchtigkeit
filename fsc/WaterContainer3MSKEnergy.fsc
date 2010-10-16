@@ -1,0 +1,19 @@
+#Created by FScape; do not edit manually!
+#Wed Oct 13 01:59:02 CEST 2010
+OutEnergy=true
+OutTilt=false
+Class=de.sciss.fscape.gui.SerialKillaDlg
+NOutputFile=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/WaterContainer3MSKNoise.aif
+NOutputReso=0
+EOutputFile=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/WaterContainer3MSKEnergy.aif
+Overlap=4
+EOutputReso=0
+FrameSize=4
+TOutputFile=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/WaterContainer3MSKTilt.aif
+NOutputType=0
+GainType=0
+OutNoise=false
+TOutputReso=0
+EOutputType=0
+InputFile=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/WaterContainer3M.aif
+TOutputType=0

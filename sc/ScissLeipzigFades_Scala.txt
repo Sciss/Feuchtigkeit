@@ -1,0 +1,158 @@
+so.deviceName = Some( "MOTU 828mk2" )
+so.outputBusChannels = 22
+boot
+
+val buf = Buffer.cue( s, "/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/ScissLeipzigTeil3TestHPCutRsmpFrzRsmpHPExcCut.aif" )
+val fft = Buffer.alloc( s, 1024 )
+
+SynthDef.recv( s, "fade" ) {
+    val disk = DiskIn.ar( 1, "buf".ir )
+    DetectSilence.kr( disk, dur = 1, doneAction = freeSelf )
+    val chain0 = FFT( "fft".ir, disk )
+    val wipe   = Line.kr( "start".ir( 1 ), "stop".ir( 0 ), "dur".ir( 30 )).pow( "pow".kr( 2 ))
+    val trig   = Impulse.kr( "freq".kr( 4 ))
+    val chain1 = PV_RandComb( chain0, wipe, trig )
+    Out.ar( "bus".kr( 0 ), IFFT( chain1 ) * "amp".kr( 0.1 ))
+}
+
+val x = Synth.play( "fade", Seq( "buf" -> buf.id, "fft" -> fft.id, "bus" -> 2, "amp" -> 0.5, "freq" -> 5 ))
+x.free
+buf.close; buf.free
+
+val recBuf = Buffer.alloc( s, 32768 )
+recBuf.write( "/Users/hhrutz/Desktop/rec.aif", numFrames = 0, leaveOpen = true )
+
+SynthDef.recv( s, "rec" ) {
+    val disk = DiskOut.ar( "buf".ir, In.ar( "bus".kr( 0 )))
+}
+
+val recSynth = Synth( s )
+val playSynth = Synth( s )
+
+s ! OSCBundle(
+   playSynth.newMsg( "fade", s, Seq( "buf" -> buf.id, "fft" -> fft.id, "amp" -> 1, "freq" -> 5 )),
+   recSynth.newMsg( "rec", playSynth, Seq( "buf" -> recBuf.id ), addAfter )
+)
+
+recSynth.free
+recBuf.close; recBuf.free; buf.close; buf.free
+
+val buf = Buffer.cue( s, "/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/ScissLeipzigTeil3TestHPCutRsmpFrzRsmpHPExcCut1.aif" )
+val recBuf = Buffer.alloc( s, 32768 )
+recBuf.write( "/Users/hhrutz/Desktop/rec2.aif", numFrames = 0, leaveOpen = true )
+
+s ! OSCBundle(
+   playSynth.newMsg( "fade", s, Seq( "start" -> 0, "stop" -> 1, "dur" -> 60, "buf" -> buf.id, "fft" -> fft.id, "amp" -> 1, "freq" -> 4.5 )),
+   recSynth.newMsg( "rec", playSynth, Seq( "buf" -> recBuf.id ), addAfter )
+)
+
+///////
+
+val buf = Buffer.cue( s, "/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/ScissLeipzigTeil3TestHPCutRsmpHlbFrzChbyRsmpHPCut.aif" )
+
+SynthDef.recv( s, "fade2" ) {
+    val disk = DiskIn.ar( 1, "buf".ir )
+    DetectSilence.kr( disk, dur = 1, doneAction = freeSelf )
+    val chain0 = FFT( "fft".ir, disk )
+    val wipe   = Line.kr( "start".ir( 1 ), "stop".ir( 0 ), "dur".ir( 30 )).pow( "pow".kr( 2 ))
+    val trig   = Impulse.kr( "freq".kr( 4 ))
+    val chain1 = PV_RandComb( chain0, wipe, trig )
+    Out.ar( "bus".kr( 0 ), IFFT( chain1 ) * "amp".kr( 0.1 ))
+}
+
+val x = Synth.play( "fade2", Seq( "buf" -> buf.id, "fft" -> fft.id, "bus" -> 2, "amp" -> 0.5, "freq" -> 5 ))
+x.free
+buf.close; buf.free
+
+val recBuf = Buffer.alloc( s, 32768 )
+recBuf.write( "/Users/hhrutz/Desktop/rec3.aif", numFrames = 0, leaveOpen = true )
+
+val buf = Buffer.cue( s, "/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/ScissLeipzigTeil3TestHPCutRsmpHlbFrzChbyRsmpHPCut.aif" )
+
+val recSynth = Synth( s )
+val playSynth = Synth( s )
+
+s ! OSCBundle(
+   playSynth.newMsg( "fade2", s, Seq( "dur" -> 33, "buf" -> buf.id, "fft" -> fft.id, "amp" -> 1, "freq" -> 4.9, "pow" -> 3 )),
+   recSynth.newMsg( "rec", playSynth, Seq( "buf" -> recBuf.id ), addAfter )
+)
+
+recSynth.free
+recBuf.close; recBuf.free; buf.close; buf.free
+
+val recBuf = Buffer.alloc( s, 32768 )
+recBuf.write( "/Users/hhrutz/Desktop/rec4.aif", numFrames = 0, leaveOpen = true )
+val buf = Buffer.cue( s, "/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/ScissLeipzigTeil3TestHPCutRsmpHlbFrzChbyRsmpHPCut1.aif" )
+val recSynth = Synth( s )
+val playSynth = Synth( s )
+
+s ! OSCBundle(
+   playSynth.newMsg( "fade2", s, Seq( "start" -> 0, "stop" -> 1, "dur" -> 66, "buf" -> buf.id, "fft" -> fft.id, "amp" -> 1, "freq" -> 4.9, "pow" -> 3 )),
+   recSynth.newMsg( "rec", playSynth, Seq( "buf" -> recBuf.id ), addAfter )
+)
+
+recSynth.free
+recBuf.close; recBuf.free; buf.close; buf.free
+
+/////
+
+val buf = Buffer.cue( s, "/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/ScissLeipzigTeil3TestHPCutRsmpHlb2FrzChbyRsmpHPCut.aif" )
+
+SynthDef.recv( s, "fade3" ) {
+    val disk = DiskIn.ar( 1, "buf".ir )
+    DetectSilence.kr( disk, dur = 1, doneAction = freeSelf )
+    val chain0 = FFT( "fft".ir, disk )
+    val thresh = Line.kr( "start".ir( 1 ), "stop".ir( 0 ), "dur".ir( 30 )).pow( "pow".kr( 2 ))
+    val chain1 = PV_MagAbove( chain0, thresh )
+    Out.ar( "bus".kr( 0 ), IFFT( chain1 ) * "amp".kr( 0.1 ))
+}
+
+val x = Synth.play( "fade3", Seq( "start" -> 1, "stop" -> 0.0, "dur" -> 36.3, "buf" -> buf.id, "fft" -> fft.id, "bus" -> 2, "amp" -> 0.5 ))
+x.free
+buf.close; buf.free
+
+val buf = Buffer.cue( s, "/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/ScissLeipzigTeil3TestHPCutRsmpHlb2FrzChbyRsmpHPCut.aif" )
+val recBuf = Buffer.alloc( s, 32768 )
+recBuf.write( "/Users/hhrutz/Desktop/rec5.aif", numFrames = 0, leaveOpen = true )
+val recSynth = Synth( s )
+val playSynth = Synth( s )
+
+s ! OSCBundle(
+   playSynth.newMsg( "fade2", s, Seq( "dur" -> 36.3, "buf" -> buf.id, "fft" -> fft.id, "amp" -> 1, "pow" -> 1.8 )),
+   recSynth.newMsg( "rec", playSynth, Seq( "buf" -> recBuf.id ), addAfter )
+)
+
+recSynth.free
+recBuf.close; recBuf.free; buf.close; buf.free
+
+
+val buf = Buffer.cue( s, "/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/ScissLeipzigTeil3TestHPCutRsmpHlb2FrzChbyRsmpHPCut1.aif" )
+
+SynthDef.recv( s, "fade4" ) {
+    val disk = DiskIn.ar( 1, "buf".ir )
+    DetectSilence.kr( disk, dur = 1, doneAction = freeSelf )
+    val chain0 = FFT( "fft".ir, disk )
+    val thresh = Line.kr( "start".ir( 1 ), "stop".ir( 0 ), "dur".ir( 30 )).pow( "pow".kr( 2 ))
+    val chain1 = PV_MagBelow( chain0, thresh )
+    Out.ar( "bus".kr( 0 ), IFFT( chain1 ) * "amp".kr( 0.1 ))
+}
+
+val x = Synth.play( "fade4", Seq( "start" -> 1, "stop" -> 0.0, "dur" -> 72.6, "buf" -> buf.id, "fft" -> fft.id, "bus" -> 2, "amp" -> 0.5 ))
+x.free
+buf.close; buf.free
+
+val buf = Buffer.cue( s, "/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/ScissLeipzigTeil3TestHPCutRsmpHlb2FrzChbyRsmpHPCut1.aif" )
+val recBuf = Buffer.alloc( s, 32768 )
+recBuf.write( "/Users/hhrutz/Desktop/rec6.aif", numFrames = 0, leaveOpen = true )
+val recSynth = Synth( s )
+val playSynth = Synth( s )
+
+s ! OSCBundle(
+   playSynth.newMsg( "fade4", s, Seq( "start" -> 2, "dur" -> 72.6, "buf" -> buf.id, "fft" -> fft.id, "amp" -> 1, "pow" -> 2.2 )),
+   recSynth.newMsg( "rec", playSynth, Seq( "buf" -> recBuf.id ), addAfter )
+)
+
+recSynth.free
+recBuf.close; recBuf.free; buf.close; buf.free
+
+

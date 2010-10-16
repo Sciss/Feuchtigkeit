@@ -1,0 +1,39 @@
+val buf = Buffer.cue( s, "/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/SaatchiInstallation-L.aif" )
+
+SynthDef.recv( s, "fade5" ) {
+    val disk = DiskIn.ar( 1, "buf".ir )
+    val freq = XLine.kr( "start".ir( 18000 ), "stop".ir( 20 ), "dur".ir( 60 ), doneAction = freeSelf )
+    val flt = HPF.ar( disk, freq )
+    Out.ar( "bus".kr( 0 ), flt * "amp".kr( 1 ))
+}
+
+val recBuf = Buffer.alloc( s, 32768 )
+recBuf.write( "/Users/hhrutz/Desktop/rec7.aif", numFrames = 0, leaveOpen = true )
+val recSynth = Synth( s )
+val playSynth = Synth( s )
+
+s ! OSCBundle(
+   playSynth.newMsg( "fade5", s, Seq( "buf" -> buf.id )),
+   recSynth.newMsg( "rec", playSynth, Seq( "buf" -> recBuf.id ), addAfter )
+)
+
+recSynth.free
+recBuf.close; recBuf.free; buf.close; buf.free
+
+// :: //
+
+val path = "/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/SaatchiInstallation-L.aif"
+val spec = AudioFile.readSpec( path )
+val buf = Buffer.cue( s, path, startFrame = (spec.numFrames - 60 * spec.sampleRate).toInt )
+val recBuf = Buffer.alloc( s, 32768 )
+recBuf.write( "/Users/hhrutz/Desktop/rec8.aif", numFrames = 0, leaveOpen = true )
+val recSynth = Synth( s )
+val playSynth = Synth( s )
+
+s ! OSCBundle(
+   playSynth.newMsg( "fade5", s, Seq( "start" -> 20, "stop" -> 18000, "dur" -> 60, "buf" -> buf.id )),
+   recSynth.newMsg( "rec", playSynth, Seq( "buf" -> recBuf.id ), addAfter )
+)
+
+recSynth.free
+recBuf.close; recBuf.free; buf.close; buf.free

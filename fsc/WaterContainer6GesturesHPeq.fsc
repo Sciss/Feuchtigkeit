@@ -1,0 +1,22 @@
+#Created by FScape; do not edit manually!
+#Sun Oct 17 01:01:16 CEST 2010
+Morph=false
+Length=1
+IRNumber=1.0,0
+MinPhase=false
+NormImp=false
+OutputFile=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/WaterContainer6GesturesHPeq.aif
+TruncOver=false
+InputFile=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/WaterContainer6GesturesHP.aif
+Policy=0
+OutputRes=1
+WinOverlap=0.0,2
+WinStep=20.0,2
+FadeLen=10.0,2
+Gain=0.0,785
+OutputType=0
+Mode=0
+Class=de.sciss.fscape.gui.ConvolutionDlg
+GainType=1
+ImpulseFile=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/notch140.aif
+IRModEnv=0.0,10.0,0.01,18;0.0,100.0,0.01,16;0;0.0,0.0;10.0,100.0|0.0,100.0,0.01,18;0.0,100.0,0.01,16;0;0.0,0.0;100.0,100.0|0.0,10.0,0.01,18;0.0,100.0,0.01,16;0;0.0,100.0;10.0,0.0|false|true|false
