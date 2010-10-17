@@ -1,0 +1,13 @@
+#Created by FScape; do not edit manually!
+#Sun Oct 17 01:46:22 CEST 2010
+Class=de.sciss.fscape.gui.FIRDesignerDlg
+Gain=0.0,785
+OutputFile=/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/work/notch140.aif
+MinPhase=true
+Quality=0
+OutputRes=2
+GainType=1
+Circuit=02{23{1;false;120.0,3;250.0,35;-0.54,785;0.0,2;false;5000.0,3;1000.0,35;50.0,35}3{2;false;160.0,3;63.300000000000004,35;0.0,785;0.0,2;false;5000.0,3;1000.0,35;40.0,35}}
+OutputRate=2
+Window=4
+OutputType=0

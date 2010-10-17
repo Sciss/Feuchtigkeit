@@ -1,0 +1,19 @@
+val rnd = new util.Random()
+val dur = 12.0 * 60
+val t1 = (rnd.nextDouble() * 0.4 + 0.05) * dur
+val t2 = (rnd.nextDouble() * 0.4 + 0.55) * dur
+
+import de.sciss.synth.io._
+val afOut = AudioFile.openWrite( "/Users/hhrutz/Desktop/noise.aif",
+   AudioFileSpec( numChannels = 1, sampleRate = 44100 ))
+val buf = afOut.frameBuffer( 20 * 44100 )
+val b0 = buf(0)
+var l = 0f
+for( i <- 0 until b0.size ) {
+    val n = rnd.nextFloat() * 2 - 1
+    b0(i) = n * 0.1f + l * 0.9f
+    l = n
+}
+
+afOut.writeFrames( buf )
+afOut.close

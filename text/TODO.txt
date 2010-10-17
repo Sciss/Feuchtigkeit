@@ -1,0 +1,1 @@
+- SinRect Mod : ch.2 final fade out too abrupt + second internal fade out doesn't work -- should add a reverse verb to create cresc

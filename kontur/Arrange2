@@ -18,17 +18,17 @@
   <numChannels>1</numChannels>
   <sampleRate>44100.0</sampleRate>
 </audioFile><audioFile id="3">
-  <path>/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/ScissLeipzigTeil3TestHPCutRsmpHlbFrzChbyRsmpHP.aif</path>
+  <path>/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/ScissLeipzigTeil3TestHPCutRsmpHlbFrzChbyRsmpHP2.aif</path>
   <numFrames>26477493</numFrames>
   <numChannels>1</numChannels>
   <sampleRate>44100.0</sampleRate>
 </audioFile><audioFile id="4">
-  <path>/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/ScissLeipzigTeil3TestHPCutRsmpFrzRsmpHPExc.aif</path>
+  <path>/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/ScissLeipzigTeil3TestHPCutRsmpFrzRsmpHPExc2.aif</path>
   <numFrames>31754204</numFrames>
   <numChannels>1</numChannels>
   <sampleRate>44100.0</sampleRate>
 </audioFile><audioFile id="5">
-  <path>/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/ScissLeipzigTeil3TestHPCutRsmpHlb2FrzChbyRsmpHP.aif</path>
+  <path>/Users/hhrutz/Desktop/Feuchtigkeit/audio_work/ScissLeipzigTeil3TestHPCutRsmpHlb2FrzChbyRsmpHP2.aif</path>
   <numFrames>29141848</numFrames>
   <numChannels>1</numChannels>
   <sampleRate>44100.0</sampleRate>
@@ -83,6 +83,49 @@
       <diffusion idref="9"></diffusion>
       <trail>
   <stake>
+      <name>ScissLeipzigTeil3TestHPCutRsmpHlbFrzChbyRsmpHP.aif</name>
+      <span stop="37943778" start="33504425"></span>
+      <audioFile idref="3"></audioFile>
+      <offset>0</offset>
+      <gain>0.70794576</gain>
+      
+      <fadeOut><fade>
+  <numFrames>73069</numFrames>
+  
+  
+</fade></fadeOut>
+      
+   </stake><stake>
+      <name>ScissLeipzigTeil3TestHPCutRsmpHlbFrzChbyRsmpHP.aif</name>
+      <span stop="59981918" start="52463666"></span>
+      <audioFile idref="3"></audioFile>
+      <offset>18959241</offset>
+      <gain>0.70794576</gain>
+      <fadeIn><fade>
+  <numFrames>104385</numFrames>
+  
+  
+</fade></fadeIn>
+      
+      
+   </stake><stake>
+      <name>ScissLeipzigTeil3TestHPCutRsmpHlbFrzChbyRsmpHP.aif</name>
+      <span stop="52536735" start="37891585"></span>
+      <audioFile idref="3"></audioFile>
+      <offset>4387160</offset>
+      <gain>0.8912509</gain>
+      <fadeIn><fade>
+  <numFrames>93946</numFrames>
+  
+  
+</fade></fadeIn>
+      <fadeOut><fade>
+  <numFrames>73069</numFrames>
+  
+  
+</fade></fadeOut>
+      
+   </stake><stake>
       <name>SaatchiInstallation-L.aif</name>
       <span stop="87278683" start="77933493"></span>
       <audioFile idref="6"></audioFile>
@@ -116,49 +159,6 @@
       <gain>1.5848932</gain>
       
       
-      
-   </stake><stake>
-      <name>ScissLeipzigTeil3TestHPCutRsmpHlbFrzChbyRsmpHP.aif</name>
-      <span stop="52536735" start="37891585"></span>
-      <audioFile idref="3"></audioFile>
-      <offset>4387160</offset>
-      <gain>0.8912509</gain>
-      <fadeIn><fade>
-  <numFrames>93946</numFrames>
-  
-  
-</fade></fadeIn>
-      <fadeOut><fade>
-  <numFrames>73069</numFrames>
-  
-  
-</fade></fadeOut>
-      
-   </stake><stake>
-      <name>ScissLeipzigTeil3TestHPCutRsmpHlbFrzChbyRsmpHP.aif</name>
-      <span stop="59981918" start="52463666"></span>
-      <audioFile idref="3"></audioFile>
-      <offset>18959241</offset>
-      <gain>0.70794576</gain>
-      <fadeIn><fade>
-  <numFrames>104385</numFrames>
-  
-  
-</fade></fadeIn>
-      
-      
-   </stake><stake>
-      <name>ScissLeipzigTeil3TestHPCutRsmpHlbFrzChbyRsmpHP.aif</name>
-      <span stop="37943778" start="33504425"></span>
-      <audioFile idref="3"></audioFile>
-      <offset>0</offset>
-      <gain>0.70794576</gain>
-      
-      <fadeOut><fade>
-  <numFrames>73069</numFrames>
-  
-  
-</fade></fadeOut>
       
    </stake><stake>
       <name>WaterContainer3GesturesHP.aif</name>
@@ -212,6 +212,49 @@
       <diffusion idref="10"></diffusion>
       <trail>
   <stake>
+      <name>ScissLeipzigTeil3TestHPCutRsmpFrzRsmpHPExc.aif</name>
+      <span stop="49069453" start="42987119"></span>
+      <audioFile idref="4"></audioFile>
+      <offset>0</offset>
+      <gain>0.70794576</gain>
+      
+      <fadeOut><fade>
+  <numFrames>464171</numFrames>
+  
+  
+</fade></fadeOut>
+      
+   </stake><stake>
+      <name>ScissLeipzigTeil3TestHPCutRsmpFrzRsmpHPExc.aif</name>
+      <span stop="64586010" start="48804213"></span>
+      <audioFile idref="4"></audioFile>
+      <offset>5817094</offset>
+      <gain>0.7943282</gain>
+      <fadeIn><fade>
+  <numFrames>464171</numFrames>
+  
+  
+</fade></fadeIn>
+      <fadeOut><fade>
+  <numFrames>331550</numFrames>
+  
+  
+</fade></fadeOut>
+      
+   </stake><stake>
+      <name>ScissLeipzigTeil3TestHPCutRsmpFrzRsmpHPExc.aif</name>
+      <span stop="71812566" start="64254460"></span>
+      <audioFile idref="4"></audioFile>
+      <offset>21267341</offset>
+      <gain>0.70794576</gain>
+      <fadeIn><fade>
+  <numFrames>331551</numFrames>
+  
+  
+</fade></fadeIn>
+      
+      
+   </stake><stake>
       <name>WaterContainer6GesturesHP.aif</name>
       <span stop="23553078" start="21898901"></span>
       <audioFile idref="1"></audioFile>
@@ -248,49 +291,6 @@
       
       
    </stake><stake>
-      <name>ScissLeipzigTeil3TestHPCutRsmpFrzRsmpHPExc.aif</name>
-      <span stop="71812566" start="64254460"></span>
-      <audioFile idref="4"></audioFile>
-      <offset>21267341</offset>
-      <gain>0.70794576</gain>
-      <fadeIn><fade>
-  <numFrames>331551</numFrames>
-  
-  
-</fade></fadeIn>
-      
-      
-   </stake><stake>
-      <name>ScissLeipzigTeil3TestHPCutRsmpFrzRsmpHPExc.aif</name>
-      <span stop="64586010" start="48804213"></span>
-      <audioFile idref="4"></audioFile>
-      <offset>5817094</offset>
-      <gain>0.7943282</gain>
-      <fadeIn><fade>
-  <numFrames>464171</numFrames>
-  
-  
-</fade></fadeIn>
-      <fadeOut><fade>
-  <numFrames>331550</numFrames>
-  
-  
-</fade></fadeOut>
-      
-   </stake><stake>
-      <name>ScissLeipzigTeil3TestHPCutRsmpFrzRsmpHPExc.aif</name>
-      <span stop="49069453" start="42987119"></span>
-      <audioFile idref="4"></audioFile>
-      <offset>0</offset>
-      <gain>0.70794576</gain>
-      
-      <fadeOut><fade>
-  <numFrames>464171</numFrames>
-  
-  
-</fade></fadeOut>
-      
-   </stake><stake>
       <name>2ASideBlossMMRsmpHP.aif</name>
       <span stop="41747382" start="24898386"></span>
       <audioFile idref="8"></audioFile>
@@ -315,35 +315,17 @@
       <diffusion idref="11"></diffusion>
       <trail>
   <stake>
-      <name>WaterContainer2GesturesHP.aif</name>
-      <span stop="61149849" start="54619134"></span>
-      <audioFile idref="2"></audioFile>
-      <offset>0</offset>
-      <gain>1.4125376</gain>
-      
-      
-      
-   </stake><stake>
-      <name>WaterContainer2GesturesHP.aif</name>
-      <span stop="79761553" start="61149849"></span>
-      <audioFile idref="2"></audioFile>
-      <offset>6530715</offset>
-      <gain>1.0</gain>
-      
-      
-      
-   </stake><stake>
       <name>ScissLeipzigTeil3TestHPCutRsmpHlb2FrzChbyRsmpHP.aif</name>
-      <span stop="53087358" start="43982158"></span>
+      <span stop="33515770" start="25289998"></span>
       <audioFile idref="5"></audioFile>
-      <offset>20036648</offset>
+      <offset>0</offset>
       <gain>0.7943282</gain>
-      <fadeIn><fade>
-  <numFrames>214373</numFrames>
-  
-  
-</fade></fadeIn>
       
+      <fadeOut><fade>
+  <numFrames>51056</numFrames>
+  
+  
+</fade></fadeOut>
       
    </stake><stake>
       <name>ScissLeipzigTeil3TestHPCutRsmpHlb2FrzChbyRsmpHP.aif</name>
@@ -364,16 +346,34 @@
       
    </stake><stake>
       <name>ScissLeipzigTeil3TestHPCutRsmpHlb2FrzChbyRsmpHP.aif</name>
-      <span stop="33515770" start="25289998"></span>
+      <span stop="53087358" start="43982158"></span>
       <audioFile idref="5"></audioFile>
-      <offset>0</offset>
+      <offset>20036648</offset>
       <gain>0.7943282</gain>
+      <fadeIn><fade>
+  <numFrames>214373</numFrames>
+  
+  
+</fade></fadeIn>
       
-      <fadeOut><fade>
-  <numFrames>51056</numFrames>
-  
-  
-</fade></fadeOut>
+      
+   </stake><stake>
+      <name>WaterContainer2GesturesHP.aif</name>
+      <span stop="61149849" start="54619134"></span>
+      <audioFile idref="2"></audioFile>
+      <offset>0</offset>
+      <gain>1.4125376</gain>
+      
+      
+      
+   </stake><stake>
+      <name>WaterContainer2GesturesHP.aif</name>
+      <span stop="79761553" start="61149849"></span>
+      <audioFile idref="2"></audioFile>
+      <offset>6530715</offset>
+      <gain>1.0</gain>
+      
+      
       
    </stake><stake>
       <name>SaatchiInstRRvs.aif</name>
